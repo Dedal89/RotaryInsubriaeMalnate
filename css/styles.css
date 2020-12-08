@@ -10516,6 +10516,10 @@ div.title {
   text-shadow: 0 0 5px #000;
 }
 
+p.card-text {
+  margin-top: 1rem;
+}
+
 iframe.map-iframe {
   width: 100%;
   height: 100%;
