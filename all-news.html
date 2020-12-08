@@ -24,8 +24,20 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/cookiealert.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+
+      <!-- START Bootstrap-Cookie-Alert -->
+      <div class="alert text-center cookiealert" role="alert">
+        Questo sito utilizza cookie tecnici, analytics e di terze parti. <br>Proseguendo nella navigazione accetti l’utilizzo dei cookie.</p>
+          <a href="cookie.html" target="_blank">Cookie Policy</a>
+          <button type="button" class="btn btn-primary btn-sm acceptcookies">
+              Accetto
+          </button>
+      </div>
+      <!-- END Bootstrap-Cookie-Alert -->
+      
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
@@ -369,5 +381,6 @@ Queste e tante altre notizie sono state l’argomento della nostra Interclub... 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="js/cookiealert.js"></script>
     </body>
 </html>
