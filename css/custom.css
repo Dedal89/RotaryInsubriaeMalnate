@@ -4,16 +4,7 @@
   justify-content: center; /* center items horizontally */
   gap: 10px; /* adjust as needed */
   }
-  .social-buttons:before {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 40px;
-    width: 2px;
-    margin-left: -1.5px;
-    content: "";
-    background-color: #e9ecef;
-  }
+
   .social-buttons > li {
     flex: 1;
     position: relative;
